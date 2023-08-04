@@ -45,7 +45,8 @@ Future<void> sendMessage (String receiveId, String message) async{
       .doc(chatRoomId).collection('messages')
       .add(newMessage.toMap());
 
-  
+
+
 
 }
 
